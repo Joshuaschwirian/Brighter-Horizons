@@ -28,3 +28,12 @@ python3 -m http.server 3001 --directory dist
 ```
 
 Only public website files are copied to `dist`; the briefing deck, repository metadata, and development files are not published.
+
+## Pages
+
+- `index.html`: concise home page
+- `about.html`: mission and founder story
+- `approach.html`: planned homes and care commitments
+- `values.html`: guiding principles
+
+Each page works independently with shared CSS, JavaScript, and navigation.
