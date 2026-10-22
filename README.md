@@ -1,6 +1,6 @@
 # Brighter Horizons
 
-A cinematic, responsive, four-page informational website for Brighter Horizons, a company developing plans for group homes for adults with developmental disabilities.
+A cinematic, responsive, five-page informational website for Brighter Horizons, a company developing plans for group homes for adults with developmental disabilities.
 
 ## Development
 
@@ -20,7 +20,8 @@ python3 -m http.server 3001 --directory dist
 ## Pages
 
 - `index.html`: cinematic home page and short introduction
-- `about.html`: mission and founder story
+- `about.html`: company story and mission
+- `founder.html`: the founder’s personal story
 - `approach.html`: planned homes and care commitments
 - `values.html`: guiding principles
 

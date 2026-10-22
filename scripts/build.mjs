@@ -6,7 +6,7 @@ const root = fileURLToPath(new URL('../', import.meta.url));
 const output = path.join(root, 'dist');
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
-for (const name of ['index.html', 'logo-options.html', 'logo-refinements.html', 'logo.html', 'about.html', 'approach.html', 'values.html', 'styles.css', 'script.js', 'assets']) {
+for (const name of ['index.html', 'logo-options.html', 'logo-refinements.html', 'logo.html', 'about.html', 'founder.html', 'approach.html', 'values.html', 'styles.css', 'script.js', 'assets']) {
   await cp(path.join(root, name), path.join(output, name), { recursive: true });
 }
 console.log('Static website built in dist/');
