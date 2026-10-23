@@ -10,3 +10,13 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[redirects]]
+  from = "/founder"
+  to = "/about#founder"
+  status = 301
+
+[[redirects]]
+  from = "/founder.html"
+  to = "/about#founder"
+  status = 301
