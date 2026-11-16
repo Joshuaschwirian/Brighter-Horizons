@@ -31,3 +31,7 @@ html:not(.js) .motion-toggle{display:none}
 @media(max-width:700px){.founder-story{font-size:16px;line-height:1.85;padding:45px 25px 60px}.founder-story h2,.founder-story h3{font-size:43px;margin-top:45px}.founder-story .founder-ending{font-size:36px}}
 
 #founder{scroll-margin-top:120px}#founder-heading{margin-top:15px}
+
+/* Frame the original photograph without changing its pixels or cropping anyone out. */
+.founder-family-photo{width:100%;aspect-ratio:2.7;overflow:hidden;margin:0 0 36px;border-radius:4px}
+.founder-family-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 25%}
